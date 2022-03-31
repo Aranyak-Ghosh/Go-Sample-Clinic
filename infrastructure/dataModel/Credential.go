@@ -1,7 +1,7 @@
 package datamodel
 
 type CredentialModel struct {
-	Id           string
-	Email        string
-	PasswordHash string
+	Id           string `db:"id"`
+	Email        string `db:"email"`
+	PasswordHash string `db:"hash_password"`
 }

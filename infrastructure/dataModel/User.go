@@ -3,8 +3,8 @@ package datamodel
 type UserType int
 
 type UserModel struct {
-	Id        string
-	Name      string
-	Email     string
-	ContactNo string
+	Id        string `db:"id"`
+	Name      string `db:"name"`
+	Email     string `db:"email"`
+	ContactNo string `db:"contact_no"`
 }

@@ -1,5 +1,5 @@
 package datamodel
 
 type ClinicAdminModel struct {
-	UserId string
+	UserId string `db:"user_id"`
 }

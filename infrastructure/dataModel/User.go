@@ -1,4 +1,4 @@
-package infrastructure
+package datamodel
 
 type UserType int
 

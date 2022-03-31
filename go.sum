@@ -1,3 +1,5 @@
+github.com/Aranyak-Ghosh/gorest v0.0.0-20220331061835-422f991053c5 h1:pEqk8kZ5fms33vtZmxxK0N94sAuKlPbFdUYbX9bJtC8=
+github.com/Aranyak-Ghosh/gorest v0.0.0-20220331061835-422f991053c5/go.mod h1:q3bRtDb/0caUWiTe0V9Di2z44Rj2g+DjtiUO19btbQ4=
 github.com/BurntSushi/toml v0.3.1/go.mod h1:xHWCNGjB5oqiDr8zfno3MHue2Ht5sIBksp03qcyfWMU=
 github.com/benbjohnson/clock v1.1.0/go.mod h1:J11/hYXuz8f4ySSvYwY0FKfm+ezbsZBKZxNJlLklBHA=
 github.com/davecgh/go-spew v1.1.0/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=

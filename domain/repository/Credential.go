@@ -5,17 +5,17 @@ import (
 	"github.com/jmoiron/sqlx"
 )
 
-type credentialRepository struct {
-	db *sqlx.DB
-}
-
-var _ CredentialRespository = (*credentialRepository)(nil)
-
 type CredentialRespository interface {
 	AddUserCredentials(datamodel.CredentialModel) error
 	FetchUserCredentialsById(string) (*datamodel.CredentialModel, error)
 	FetchUserCredentialsByEmail(string) (*datamodel.CredentialModel, error)
 }
+
+type credentialRepository struct {
+	db *sqlx.DB
+}
+
+var _ CredentialRespository = (*credentialRepository)(nil)
 
 func (cr *credentialRepository) AddUserCredentials(model datamodel.CredentialModel) error {
 	return nil
